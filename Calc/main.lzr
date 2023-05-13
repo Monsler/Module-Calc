@@ -1,0 +1,13 @@
+using "std"
+func main(){
+  println("Модульный калькулятор [V 1]")
+  println("Введите режим: (+; -).")
+  n = input()
+  if(n == "+"){
+    println("Выбран режим: +")
+    include "Modules/plus.lzr"
+  }
+  func input(){
+    return readln()
+  }
+}
