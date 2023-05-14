@@ -1,7 +1,7 @@
 using "converter"
-n1 = int(input())
+n1 = long(input())
 println("-")
-n2 = int(input())
+n2 = long(input())
 T = [n1, n2]
 println("=")
 println(n1 - n2)
